@@ -1,0 +1,12 @@
+  457  git add .
+  458  git commit -m "Add .gitignore and modified README.md"
+  459  git log
+  460  git push -u origin feature
+  461  git commit --amend -m "Amend add .gitignore and modified README.md"
+  462  git log
+  463  git checkout main
+  465  git branch
+  466  git merge feature
+  467  git branch
+  468  touch text.txt
+

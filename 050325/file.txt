@@ -1,0 +1,5 @@
+test text
+<<<<<<< HEAD
+neu data
+new data
+>>>>>>> 8a8ccae (changed file.txt and added .gitignore)

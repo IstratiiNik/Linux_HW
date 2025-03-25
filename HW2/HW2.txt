@@ -1,0 +1,11 @@
+   0 mkdir /home/animals
+   1 mkdir /home/animals/dogs /home/animals/cats /home/animals/fish
+   2 touch /home/animals/dogs/pluto /home/animals/fish/nemo  /home/animals/cats/garfield
+   3 touch /tmp/adam
+   4 mkdir /home/humans
+   5 cp /tmp/adam /home/humans/
+   6 touch /tmp/evA
+   7 mv /tmp/evA /opt/eve
+   8 mv /opt/eve /home/humans/
+   9 ls /home/humans
+  10 history > /tmp/history.txt && export_file /tmp/history.txt

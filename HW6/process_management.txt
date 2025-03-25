@@ -1,0 +1,27 @@
+Tue Feb 18 14:04:22 UTC 2025
+Welcome to Amazon server
+Mem:           952M        209M        358M        608K        385M        585M
+87
+NIKITA_VARIABLE=131224-wdm 
+PID 20911 PPID 1
+
+
+1. ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+
+2. export NIKITA_VARIABLE="131224-wdm"
+
+3. touch /opt/131224-wdm/NikIst/.process_management
+
+4. date >> /opt/131224-wdm/NikIst/.process_management
+
+5. echo "Welcome to Amazon server" >> /opt/131224-wdm/NikIst/.process_management
+
+6. free -h | grep "Mem" >> /opt/131224-wdm/NikIst/.process_management
+
+7. ps -U root --no-headers | wc -l >> /opt/131224-wdm/NikIst/.process_management
+
+8. env | grep NIKITA_VARIABLE
+
+9. echo "PID 20911 PPID $(ps -o ppid= -p 20911 | tail -n 1 | tr -d ' ')" >> /opt/131224-wdm/NikIst/.process_management
+
+10. scp ec2-user@linux.itcareerhub.de:/opt/131224-wdm/NikIst/.process_management /Users/admin/Downloads/

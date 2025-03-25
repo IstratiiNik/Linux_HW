@@ -1,0 +1,20 @@
+#!/bin/bash
+set -e
+
+directory="/opt/131224-wdm"
+
+if [ ! -d "$directory" ]; then
+	echo "The directory "$directory" does not exist"
+	exit 1
+fi
+
+find "$directory" -type f -name "*.sh" -exec chmod +x {} \;
+echo "All scripts in "$directory" have been granted execution rights"
+
+# €lternative option:
+
+#for item in $(find "$directory" -type f -name "*.sh")
+#	do 
+#		chmod +x "$item";
+#	done
+#echo "All scripts in "$directory" have been granted execution rights"

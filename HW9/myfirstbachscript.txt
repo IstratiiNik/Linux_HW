@@ -1,0 +1,18 @@
+#!/bin/bash
+
+USER="Nikita"
+biosets=$(ps -ef | grep -v grep | grep -c 'bioset')
+permissions=$(ls -l /etc/passwd | awk '{print $1}')
+
+cat << END
+
+Current date: $(date)
+
+Hello, $USER!
+
+Current directory: $(pwd)
+Number of 'bioset' prozesses: $biosets
+Permissions for /etc/passwd $permissions
+
+END
+

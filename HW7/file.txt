@@ -1,0 +1,1004 @@
+#!/bin/bash
+
+USER="Nikita"
+echo "The script is running in the directory: $(pwd)"
+   14  cat Klymentii/homeworks/4.2.25/sys_date.txt 
+   15  exit
+   16  df -h | head -n 3 > /tmp/file.txt
+   17  chmod 770 /tmp/file.txt
+   18  touch ~/myfirstbashscript.sh
+   19  chmod +x ~/myfirstbashscript.sh
+   20  nano ~/myfirstbashscript.sh
+   21  cat ~/myfirstbashscript.sh >> /tmp/file.txt
+   22  history >> /tmp/file.txt
+   23  export_file /tmp/file.txt
+   24  cat /tmp/file.txt
+   25  find /opt -name "*.txt"
+   26  find /opt -name "script.sh"
+   27  sudo updated 
+   28  sudo updatedb
+   29  locate *.txt
+   30  locate "*.txt"
+   31  find /opt -name script.sh
+   32  find /opt mtime -3 -name "script.sh"
+   33  find /opt -mtime -3 -name "script.sh"
+   34  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+   35  find /opt -mtime +5 -name "script.sh" 
+   36  find /opt -mtime +5 -name "script.sh" 2>/dev/null
+   37  find /opt -mtime +5 -name "script.sh" -size +5k
+   38  find /opt -mtime +5 -name "script.sh" -size +1k
+   39  find /opt -mtime +5 -name "script.sh" -size +15b
+   40  find /opt -mtime +5 -name "script.sh" -size +15
+   41  find /opt -mtime -5 -name "script.sh" -size +15
+   42  find /opt -mtime +5 -name "*.txt" -size +15k
+   43  find / -mtime +5 -name "5.txt" -size +15k
+   44  find / -mtime +5 -name "5.txt" -size +15k 2>/dev/null
+   45  find / -mtime +5 -name "5.txt" 2>/dev/null
+   46  find / -mtime +5 -name "5.txt" 2>/dev/null -delete
+   47  find / -mtime +5 -name "5.txt" 2>/dev/null 
+   48  locate "5.txt"
+   49  find / -type d "131224-wdm"
+   50  find / -type d -name "131224-wdm"
+   51  find / -type d -name "131224-wdm" 2>/dev/null
+   52  exit
+   53  clear
+   54  find /opt -name "*.txt"
+   55  find /opt -name "script.sh"
+   56  sudo updatedb
+   57  locate *.txt
+   58  locate "*.txt"
+   59  find /opt -name script.sh
+   60  find /opt mtime -3 -name "script.sh"
+   61  find /opt -mtime -3 -name "script.sh"
+   62  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+   63  find /opt -mtime +5 -name "script.sh" 2>>/dev/null
+   64  find /opt -mtime +5 -name "script.sh" -size +5k
+   65  find /opt -mtime +5 -name "script.sh" -size +15b
+   66  find /opt -mtime +5 -name "script.sh" -size +15
+   67  find /opt -mtime +5 -name "*.txt" -size +15k
+   68  find / -mtime +5 -name "5.txt" -size +15k
+   69  find / -mtime +5 -name "5.txt" -size +15k 2>/dev/null
+   70  find / -mtime +5 -name "5.txt" 2>/dev/null
+   71  find / -mtime +5 -name "5.txt" 2>/dev/null -delete
+   72  find / -mtime +5 -name "5.txt" 2>/dev/null
+   73  find / -type d -name "131224-wdm"
+   74  find / -type d -name "131224-wdm" 2>/dev/null
+   75  exit
+   76  find /opt -name "script.sh"
+   77  sudo updatedb
+   78  locate *.txt
+   79  locate "*.txt"
+   80  find /opt -name script.sh
+   81  find /opt mtime -3 -nam "script.sh"
+   82  find /opt - mtime -3 -nam "script.sh"
+   83  find /opt -mtime -3 -name "script.sh"
+   84  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+   85  find /opt -mtime +5 -name "script.sh"
+   86  find /opt -mtime +5 -name "script.sh" 2>/dev/null
+   87  find /opt -mtime +5 -name "script.sh" -size +5k
+   88  find /opt -mtime +5 -name "script.sh" -size +15
+   89  find /opt -mtime +5 -name "script.sh" -size +15b
+   90  find /opt -mtime -5 -name "script.sh" -size +15b
+   91  find /opt -mtime +5 -name "*.txt" -size +15k
+   92  find / -mtime +5 -name "*5.txt" -size +15k
+   93  find / -mtime +5 -name "*5.txt" -size +15k 2>dev/null
+   94  find / -mtime +5 -name "*5.txt" 2>/dev/null
+   95  find / -mtime +5 -name "*5.txt" 2>/dev/null -delete
+   96  find / -mtime +5 -name "*5.txt" 2>/dev/null
+   97  locate  / -mtime +5 -name "*5.txt" 2>/dev/null
+   98  find / -type d "131224-wdm"
+   99  find / -type d -name "131224-wdm"
+  100  find / -type d -name "131224-wdm" 2>/dev/null
+  101  find /opt -name "*.txt"
+  102  find /opt -name "*script.sh"
+  103  sudo updatedb
+  104  locate *.txt
+  105  locate "*.txt"
+  106  find /opt -name script.sh
+  107  find /opt mtime -3 -name "script.sh"
+  108  find /opt -mtime -3 -name "script.sh"
+  109  find /opt -mtime -3 -name "script.sh" 2>/del/null
+  110  find /opt -mtime -3 -name "script.sh" 2>/dev/null
+  111  find /opt -mtime +3 -name "script.sh" 2>/dev/null
+  112  find /opt -mtime +3 -name "script.sh" -size +5k 2>/dev/null
+  113  find /opt -mtime -5 -name "script.sh" -size +5k 2>/dev/null
+  114  find /opt -mtime -5 -name "script.sh" -size +5K 2>/dev/null
+  115  find /opt -mtime -5 -name "*.txt" -size +5K 2>/dev/null
+  116  find /opt -mtime +5 -name "*.txt" -size +5K 2>/dev/null
+  117  find /opt -mtime +5 -name "*.txt" -size +15k 2>/dev/null
+  118  find / -mtime +5 -name "5.txt" -size +15k 2>/dev/null
+  119  find / -mtime +5 -name "5.txt" 2>/dev/null
+  120  find / -mtime +5 -name "5.txt" 2>/dev/null -delete
+  121  find / -mtime +5 -name "5.txt" 2>/dev/null 
+  122  locate "5.txt"
+  123  find / -type d  -name "131224-wdm" >2/del/null 
+  124  find / -type d  -name "131224-wdm" >2/dev/null 
+  125  find / -type d  -name "131224-wdm" 2>/dev/null 
+  126  exit
+  127  cd /tmp/
+  128  ls -la
+  129  find 
+  130  cd /opt
+  131  ls -la
+  132  find /opt -name "*.txt"
+  133  find /opt -name "script.sh"
+  134  sudo updatedb
+  135  locate *.txt
+  136  find /opt -name script.sh
+  137  locate '*.txt'
+  138  find /opt mtime -3 -name "script.sh"
+  139  find /opt -mtime -3 -name "script.sh"
+  140  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+  141  find /opt -mtime +5 -name "script.sh"
+  142  find /opt -mtime +5 -name "script.sh" 2>>/dev/null
+  143  find /opt -mtime +5 -name "script.sh" -size +5k
+  144  find /opt -mtime +5 -name "script.sh" -size +1k
+  145  find /opt -mtime +5 -name "script.sh" -size +15
+  146  find /opt -mtime -5 -name "script.sh" -size +15
+  147  find /opt -mtime +5 -name "*.txt" -size +15k 
+  148  find / -mtime +5 -name "5.txt" -size +15k 
+  149  find / -mtime +5 -name "5.txt" -size +15k 2>/dev/null
+  150  find / -mtime +5 -name "5.txt" -size +15k 2>>/dev/null
+  151  find / -mtime +5 -name "5.txt" 2>/dev/null
+  152  find / -mtime +5 -name "5.txt" 2>/dev/null -delete
+  153  find / -mtime +5 -name "5.txt" 2>/dev/null
+  154  locate "5.txt"
+  155  find / -type d "131224-wdm"
+  156  find / -type d -name "131224-wdm"
+  157  find / -type d -name "131224-wdm" 2>/dev/null
+  158  history
+  159  exit
+  160  sudo updatedb
+  161  locate *.txt
+  162  cd /opt/111124-ptm/
+  163  ls
+  164  mkdir Ilya
+  165  ls
+  166  ls =a
+  167  ls -a
+  168  cd Ilya/
+  169  pwd
+  170  df -h | head -n 3 > /tmp/file.txt
+  171  chmod 770 /tmp/file.txt
+  172  touch ~/myfirstbashscript.sh
+  173  chmod +x ~/myfirstbashscript.sh
+  174  nano ~/myfirstbashscript.sh
+  175  cat ~/myfirstbashscript.sh >> /tmp/file.txt
+  176  history >> /tmp/file.txt
+  177  export_file /tmp/file.txt
+  178  find /opt -name "*.txt"
+  179  find /opt -name "*script.sh"
+  180  sudo updatedb
+  181  locate *.txt
+  182  locate"*.txt"
+  183  locate "*.txt"
+  184  find /opt -name *script.sh
+  185  find /opt mtime -3 -name "script.sh"
+  186  find /opt -mtime -3 -name "script.sh"
+  187  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+  188  find /opt -mtime +5 -name "script.sh"
+  189  find /opt -mtime +5 -name "script.sh" 2>/dev/null
+  190  find /opt -mtime +5 -name "script.sh" -size +5k
+  191  find /opt -mtime +5 -name "script.sh" -size +1k
+  192  find /opt -mtime +5 -name "script.sh" -size +15b
+  193  find /opt -mtime +5 -name "script.sh" -size +15
+  194  find /opt -mtime +5 -name "*.txt" -size +15k
+  195  find / -mtime +5 -name "5.txt" -size +15k
+  196  find / -mtime +5 -name "5.txt" 2>/dev/null
+  197  find / -mtime +5 -name "5.txt" 2>/dev/null -delete
+  198  find / -mtime +5 -name "5.txt" 2>/dev/null
+  199  locate "5.txt"
+  200  find / -type d "131224-wdm"
+  201  find / -type d -name "131224-wdm"
+  202  find /opt -name "*.txt"
+  203  find /opt -name "script.sh"
+  204  sudo updatedb
+  205  locate *.txt
+  206  locate"*.txt"
+  207  locate "*.txt"
+  208  find /opt -name script.sh
+  209  find /opt mtime -3 -name "script.sh"
+  210  find /opt -mtime -3 -name "script.sh"
+  211  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+  212  find /opt -mtime +5 -name "script.sh"
+  213  find /opt -mtime +5 -name "script.sh" 2>/dev/null
+  214  find /opt -mtime +5 -name "script.sh" -size +5k
+  215  find /opt -mtime +5 -name "script.sh" -size +1k
+  216  find /opt -mtime +5 -name "script.sh" -size +15b
+  217  find /opt -mtime +5 -name "script.sh" -size +15
+  218  find /opt -mtime -5 -name "script.sh" -size +15
+  219  find /opt -mtime +5 -name "*.txt" -size +15k
+  220  find / -mtime +5 -name "5.txt" -size +15k
+  221  find / -mtime +5 -name "5.txt" -size +15k 2>/dev/null
+  222  find / -mtime +5 -name "5.txt" -size 2>/dev/null
+  223  find / -mtime +5 -name "5.txt" -size 2>/dev/null -delete
+  224  find / -mtime +5 -name "5.txt" -size 2>/dev/null 
+  225  locate "5.txt"
+  226  find / -type d "131224-wdm"
+  227  find / -type d -name "131224-wdm"
+  228  find / -type d -name "131224-wdm" 2>/dev/null
+  229  cd /opt
+  230  ls
+  231  cd /131224-wdm
+  232  cd /opt/131224-wdm/
+  233  ls
+  234  clear
+  235  find /opt -name "*.txt"
+  236  find /opt -name "script.sh"
+  237  sudo updatedb 
+  238  locate /opt "*.txt"
+  239  locate *.txt
+  240  find /opt -name script.sh
+  241  clear
+  242  find /opt -mtime -3 -name "script.sh"
+  243  find /opt -mtime -3 -name "script.sh" 2>/dev/null 
+  244  find /opt -mtime +5 -name "script.sh" 2>/dev/null 
+  245  find /opt -mtime +5 -name "script.sh" -size +5k 2>/dev/null 
+  246  find /opt/131224/dennis
+  247  find /opt -mtime +10 -name "5.txt"
+  248  cd /opt/131224-wdm/dennis
+  249  ls
+  250  history 
+  251  find /opt -name "script.sh"
+  252  locate "*.txt"
+  253  find /opt -name script.sh
+  254  find /opt mtime -3 -name "script.sh"
+  255  find /opt -mtime -3 -name "script.sh"
+  256  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+  257  find /opt -name "*.txt"
+  258  find /opt -name "script.sh"
+  259  sudo updatedb
+  260  locate *.txt
+  261  locate "*.txt"
+  262  find /opt -name script.sh
+  263  find /opt mtime -3 -name "script.sh" 
+  264  find /opt -mtime -3 -name "script.sh" 
+  265  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+  266  find /opt -mtime +5 -name "script.sh" 
+  267  find /opt -mtime +5 -name "script.sh" 2>>/dev/null
+  268  find /opt -mtime +5 -name "script.sh" -size +5k
+  269  find /opt -mtime +5 -name "script.sh" -size +1k
+  270  find /opt -mtime +5 -name "script.sh" -size +15b
+  271  find /opt -mtime +5 -name "script.sh" -size +15
+  272  find /opt -mtime -5 -name "script.sh" -size +15
+  273  find /opt -mtime +5 -name "*.txt" -size +15k
+  274  find / -mtime +5 -name "5.txt" -size +15k
+  275  find / -mtime +5 -name "5.txt" -size +15k 2>/dev/null
+  276  find / -mtime +5 -name "5.txt" 2>/dev/null
+  277  find / -mtime +5 -name "5.txt" 2>/dev/null -delete
+  278  find / -mtime +5 -name "5.txt" 2>/dev/null
+  279  locate "5.txt"
+  280  find / -type d "131224-wdm"
+  281  find / -type d -name "131224-wdm"
+  282  find / -type d -name "131224-wdm" 2>/dev/null
+  283  vi /tmp/file.txt
+  284  df -h | head -3 >> /tmp/file.txt
+  285  chmod g+wx /tmp/file.txt
+  286  chmod o-rwx /tmp/file.txt
+  287  cd /opt/131224-wdm/nataliia/
+  288  touch myfirstbashscript1.sh
+  289  chmod +x myfirstbashscript1.sh
+  290  vi myfirstbashscript1.sh
+  291  ./myfirstbashscript1.sh
+  292  cd /
+  293  ./myfirstbashscript1.sh
+  294  /opt/131224-wdm/nataliia/myfirstbashscript1.sh
+  295  cat myfirstbashscript1.sh >> /tmp/file.txt
+  296  pwd
+  297  cd /opt/131224-wdm/nataliia/
+  298  cat myfirstbashscript1.sh >> /tmp/file.txt
+  299  history >> /tmp/file.txt
+  300  exit
+  301  find /opt -name "script.sh"
+  302  sudo updatedb
+  303  localoca
+  304  locate *.txt
+  305  locate "*.txt"
+  306  find /opt -name "script.sh"
+  307  find /opt -name script.sh
+  308  find /opt mtime -3 -name "script.sh"
+  309  find /opt -mtime -3 -name "script.sh"
+  310  find /opt -mtime -3 -name "script.sh" 2>/dev/null
+  311  find /opt -mtime +5 -name "script.sh"
+  312  find /opt -mtime +5 -name "script.sh" 2>/dev/null
+  313  find /opt -mtime +5 -name "script.sh" -size +5k
+  314  find /opt -mtime +5 -name "script.sh" -size +1k
+  315  find /opt -mtime +5 -name "script.sh" -size +15k
+  316  find /opt -mtime +5 -name "script.sh" -size +15
+  317  find /opt -mtime +5 -name "*.txt" -size +15k
+  318  find / -mtime +5 -name "5.txt" -size +15k
+  319  find / -mtime +5 -name "5.txt" -size +15k 2>/dev/null
+  320  find / -mtime +5 -name "5.txt" 2>/dev/null
+  321  find / -mtime +5 -name "5.txt" 2>/dev/null -delete
+  322  find / -mtime +5 -name "5.txt" 2>/dev/null
+  323  locate "5.txt"
+  324  find / -type d "131224-wdm"
+  325  find / -type d -name "131224-wdm"
+  326  find / -type d -name "131224-wdm" 2>/dev/null
+  327  exit
+  328  find /opt
+  329  find /opt -name "*.txt"
+  330  find /opt -name "script.sh"
+  331  sudo updatedb
+  332  locate *.txt
+  333  locate "*.txt"
+  334  find /opt -name script.sh
+  335  find /opt mtime -3 -name "script.sh"
+  336  find /opt -mtime -3 -name "script.sh"
+  337  find /opt -mtime -3 -name "script.sh" 2
+  338  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+  339  clear
+  340  find /opt -mtime +5 -name "script.sh"
+  341  find /opt -mtime +5 -name "script.sh" -size +5k
+  342  find /opt -mtime +5 -name "script.sh" -size +1k
+  343  find /opt -mtime +5 -name "script.sh" -size +15b
+  344  find /opt -mtime +5 -name "script.sh" -size +15
+  345  find / -type d "131224-wdm"
+  346  find / -type d -name "131224-wdm"
+  347  find / -type d -name "131224-wdm" 2>>/dev/null
+  348  сd /tmp/131224-wdw/AlexN
+  349  cd /tmp/131224-wdm/AlexN
+  350  ls -al
+  351  cd /tmp
+  352  ls -a
+  353  cd /otp/131224-wdm/AlexN
+  354  cd 
+  355  cd /otp/131224-wdm/AlexN
+  356  cd /otp
+  357  cd otp
+  358  cd /opt/131224-wdm/AlexN
+  359  ls -al
+  360  cat myfirstbaschscript.sh 
+  361  env
+  362  clear
+  363  cd 
+  364  find /opt -name "*.txt"
+  365  find /opt -name "script.sh"
+  366  sudo updatedb
+  367  locate *.txt
+  368  locate "*.txt"
+  369  find /opt -name script.sh
+  370  find /opt mtime -3 -name "script.sh"
+  371  find /opt -mtime -3 -name "script.sh"
+  372  find /opt -mtime -3 -name "script.sh" 2>>/dev/null
+  373  find /opt -mtime +5 -name "script.sh"
+  374  find /opt -mtime +5 -name "script.sh" 2>>/dev/null
+  375  find /opt -mtime +5 -name "script.sh" -size +5k
+  376  find /opt -mtime +5 -name "script.sh" -size +5k 2>/dev/null
+  377  find /opt -mtime +5 -name "script.sh" -size +1k
+  378  find /opt -mtime +5 -name "script.sh" -size +15
+  379  find /opt -mtime +5 -name "script.sh" -size +15b
+  380  find /opt -mtime +5 -name "script.sh" -size +15
+  381  find /opt -mtime -5 -name "script.sh" -size +15
+  382  find /opt -mtime -5 -name "script.sh" -size +15b
+  383  find /opt -mtime +5 -name "*.txt" -size +15k
+  384  find / -mtime +5 -name "5.txt" -size +15k
+  385  find / -mtime +5 -name "5.txt" -size +15k 2>/dev/null
+  386  find / -mtime +5 -name "5.txt" 2>/dev/null
+  387  find / -type d "131224-wdm"
+  388  find / -type d -name "131224-wdm"
+  389  find / -type d -name "131224-wdm" 2/dev/null
+  390  find / -type d -name "131224-wdm" 2>/dev/null
+  391  cd /111124-ptm
+  392  ls
+  393  cd opt/111124-ptm/ElenaM
+  394  cd opt/111124-ptm/
+  395  cd opt/111124-ptm
+  396  cd //opt/111124-ptm
+  397  cd /opt/111124-ptm
+  398  cd /ElenaM
+  399  cd /opt/111124-ptm/ElenaM
+  400  mkdir /opt/111124-ptm/ElenaM/dir1 /opt/111124-ptm/ElenaM/dir2
+  401  ls
+  402  nano script.sh
+  403  bash script.sh
+  404  cd dir1
+  405  ls
+  406  cd ..
+  407  cd dir2
+  408  ls
+  409  nano script.sh
+  410  bash script.sh
+  411  nano script.sh
+  412  cd dir1
+  413  ls
+  414  cd ..
+  415  cd dir1
+  416  ls
+  417  cd /tmp
+  418  ls -la
+  419  cat file_An.txt
+  420  cat file_AN.txt
+  421  nano file_AN.txt
+  422  cd /opt/131224-wdm/AlexN
+  423  ls -al
+  424  nano myfirstbaschscript.sh 
+  425  ./myfirstbaschscript.sh 
+  426  cdd
+  427  cd
+  428  ./myfirstbaschscript.sh 
+  429  pwd
+  430  echo "Hallo,$USER!
+  431  cd /opt/131224-wdm/AlexN
+  432  pwd
+  433  ./myfirstbaschscript.sh 
+  434  nano myfirstbaschscript.sh 
+  435  ./myfirstbaschscript.sh 
+  436  nano myfirstbaschscript.sh 
+  437  ./myfirstbaschscript.sh 
+  438  cd
+  439  ./myfirstbashscript.sh
+  440  history
+  441  cd /otp/131224-wdm/AlexN/
+  442  cd /opt/131224-wdm/AlexN
+  443  ls -a
+  444  cat myfirstbaschscript.sh 
+  445  cd /tmp/file_AN.txt
+  446  cd /tmp
+  447  ls -la
+  448  cat file_AN.txt
+  449  cd /opt/131224-wdm/
+  450  chmod 744 myfirstbashscript1.sh 
+  451  ls -la
+  452  ls -la nataliia
+  453  chmod 744 myfirstbashscript1.sh 
+  454  chmod 744 /opt/131224-wdm/nataliia/myfirstbashscript1.sh 
+  455  ls -l
+  456  cd /opt/131224-wdm/nataliia/
+  457  ls -la
+  458  ./myfirstbashscript1.sh
+  459  ./opt/131224-wdm/nataliia/myfirstbashscript1.sh
+  460  pwd
+  461  ./myfirstbashscript1.sh
+  462  vi /tmp/file.txt
+  463  df -h | head -3 >> /tmp/file.txt
+  464  chmod g+wx /tmp/file.txt
+  465  chmod o-rwx /tmp/file.txt
+  466  cd /opt/131224-wdm/nataliia/
+  467  touch myfirstbashscript1.sh
+  468  chmod +x myfirstbashscript1.sh
+  469  vi myfirstbashscript1.sh
+  470  ./myfirstbashscript1.sh
+  471  cat myfirstbashscript1.sh >> /tmp/file.txt
+  472  history >> /tmp/file.txt
+  473  cd /opt/131224-wdm/Kushnir_Yevhenii/
+  474  touch ./mysecondbashscript.sh
+  475  la -a
+  476  la -la
+  477  la -ls
+  478  ls -a
+  479  chmod a+x
+  480  chmod a+x mysecondbashscript.sh 
+  481  ls -l
+  482  nano mysecondbashscript.sh 
+  483  nano /tmp/file.txt
+  484  nano /tmp/my-file.txt
+  485  df -h
+  486  df -h | head -n 3 >> /tmp/my-file.txt
+  487  cat /tmp/my-file.txt
+  488  chmod g+wx /tmp/my-file.txt
+  489  chmod o-rwx /tmp/my-file.txt
+  490  nano /tmp/myfirstbashscript.sh
+  491  chmod +x /tmp/myfirstbashscript.sh
+  492  export USER=Anastasiya
+  493  nano /tmp/myfirstbashscript.sh
+  494  cat /tmp/myfirstbashscript.sh
+  495  cat /tmp/myfirstbashscript.sh >> /tmp/my-file.txt
+  496  history >> /tmp/my-file.txt
+  497  cat /tmp/my-file.txt
+  498  ls -l /tmp/my-file.txt
+  499  chmod u+x /tmp/my-file.txt
+  500  ls -l /tmp/my-file.txt
+  501  nano /tmp/myfirstbashscript.sh
+  502  exit
+  503  cd /opt/131224-wdm/dennis
+  504  nano myfirstbashscript.sh
+  505  chmod +x myfirstbashscript.sh
+  506  ls -la
+  507  ./myfirstbashscript.sh
+  508  history
+  509  ls
+  510  pwd
+  511  cd /
+  512  ls -la
+  513  cd /opt
+  514  ls
+  515  cd /opt/131224-wdm/
+  516  pwd
+  517  mkdir kateryna_desiatyryk
+  518  cd kateryna_desiatyryk
+  519  ls
+  520  touch file.txt
+  521  ls
+  522  pwd
+  523  ls
+  524  cd /opt/131224-wdm/
+  525  ls
+  526  cd /opt/111124-ptm/
+  527  ls
+  528  tree Ilya/
+  529  rmdir Ilya/
+  530  ls
+  531  mkdir Ilya
+  532  ls
+  533  rm Ilya
+  534  rmdir Ilya
+  535  ls
+  536  watch ls
+  537  exit
+  538  cd /opt/111124-ptm/
+  539  ls
+  540  mkdir Ilya
+  541  ls
+  542  cd /opt/091224-ptm/Mihail/
+  543  ls -al
+  544  nano task_Mihail.sh
+  545  chmod +x task_Mihail.sh 
+  546  crontab -e
+  547  tar -cvzf Mihail_files.tar.gz /opt/091224-ptm/Mihail/files
+  548  ls -l /opt/091224-ptm/Mihail/
+  549  /opt/091224-ptm/Mihail/task_Mihail.sh
+  550  ls -l /opt/091224-ptm/Mihail/files
+  551  tar -cvzf Mihail_files.tar.gz /opt/091224-ptm/Mihail/files
+  552  history > history.txt
+  553  tar -rvf Mihail_files.tar.gz history.txt
+  554  tar -cvzf Mihail_files.tar.gz files history.txt
+  555  crontab -e
+  556  scp ec2-user@linux.itcareerhub.de:/opt/091224-ptm/Mihail/Mihail_files.tar.gz /d/dir_for_bash/
+  557  exit
+  558  vi /tmp/file8.txt
+  559  df -h | head -n 3
+  560  df -h | head -n 3 >> /tmp/file8.txt 
+  561  chmod 070 /tmp/file.txt
+  562  vi /opt/131224-wdm/Viktor/myfirstbashscript.sh
+  563  chmod +x /opt/131224-wdm/Viktor/myfirstbashscript.sh
+  564  cat /opt/131224-wdm/Viktor/myfirstbashscript.sh >> /tmp/file8.txtcat /opt/131224-wdm/Viktor/myfirstbashscript.sh >> /tmp/file8.txt
+  565  cat /tmp/file8.txt
+  566  vi /tmp/file8.txt
+  567  history >> /tmp/file.txt
+  568  export ANDREW_VARIABLE=131224_wdm
+  569  mkdir -p /opt/131224_wdm/Oksana
+  570  pwd
+  571  cd /tmp
+  572  pwd
+  573  ls -la
+  574  nano file_serhii.txt
+  575  nano file_AN.txt
+  576  nano let_it_run.sh
+  577  nano myfirstbashscript.sh
+  578  export ANDREW_VARIABLE=131224-wdm
+  579  mkdir -p /opt/131224-wdm/Oksana
+  580  touch /opt/131224-wdm/Oksana/ .process_management
+  581  nano /opt/131224-wdm/Oksana/ .process_management
+  582  vi /tmp/file_max.txt
+  583  df -h | head -3 >> /tmp/file_max.txt
+  584  chmod g+wx,o-rwx /tmp/file_max.txt
+  585  touch myfirstbashscript_max.sh
+  586  chmod +x myfirstbashscript_max.sh
+  587  vi myfirstbashscript_max.sh
+  588  cat myfirstbashscript_max.sh >> /tmp/file_max.txt
+  589  history >> /tmp/file_max.txt
+  590  export_file /tmp/file_max.txt
+  591  myfirstbashscript_max.sh
+  592  ./myfirstbashscript_max.sh
+  593  ls -la
+  594  rm myfirstbashscript_max.sh
+  595  ls
+  596  cd /tmp
+  597  ls
+  598  rm file_max.txt
+  599  ls
+  600  ls -la
+  601  ./myfirstbashscript_max.sh
+  602  vi /tmp/file_max.txt
+  603  df -h | head -3 >> /tmp/file_max.txt
+  604  chmod g+wx,o-rwx /tmp/file_max.txt
+  605  touch myfirstbashscript_max.sh
+  606  chmod +x myfirstbashscript_max.sh
+  607  vi myfirstbashscript_max.sh
+  608  cat myfirstbashscript_max.sh >> /tmp/file_max.txt
+  609  history | tail -n 8 >> /tmp/file_max.txt
+  610  df -h
+  611  rm /tmp/file_max.txt
+  612  rm myfirstbashscript_max.sh
+  613  vi 
+  614  cd /opt/131224-wdm/Viktor/
+  615  ls -la
+  616  vi myfirstbashscript.sh 
+  617  ls -l /etc/passwd | awk 'print $1'
+  618  ls -l /etc/passwd | awk '{print $1}'
+  619  chmod +x myfirstbashscript.sh 
+  620  ls -la
+  621  cat myfirstbashscript.sh 
+  622  bash myfirstbashscript.sh 
+  623  cd /tmp
+  624  ls -la
+  625  pwd
+  626  cd /opt/111124-ptm/
+  627  ls
+  628  cd AlexSidorenko/
+  629  ls
+  630  vim 11-11-24.sh
+  631  ls
+  632  exit
+  633  cd /opt/111124-ptm/
+  634  cd AlexSidorenko/
+  635  ls
+  636  cd ..
+  637  exit
+  638  cd opt
+  639  cd otp
+  640  ls -la
+  641  cd /opt
+  642  ls
+  643  cd 111124-ptm/
+  644  ls
+  645  cd YevgeniyG/
+  646  ls -la
+  647  mkdir -p hw_19
+  648  ls 
+  649  cd hw_19/
+  650  pwd
+  651  touch 100files.sh
+  652  chmod +x 100files.sh
+  653  ls 
+  654  vim 100files.sh
+  655  ls
+  656  ./100files.sh
+  657  ls
+  658  cd
+  659  ls
+  660  cd /opt/111124-ptm/YevgeniyG/hw_19/1
+  661  ls
+  662  cd ..
+  663  ls
+  664  touch move_files.sh
+  665  chmod +x move_files.sh
+  666  vim move_files.sh
+  667  ls 
+  668  ./move_files.sh
+  669  ls 
+  670  cd 2
+  671  ls
+  672  cd ..
+  673  cd 1
+  674  ls 
+  675  exit
+  676  ls
+  677  pwd
+  678  cd /
+  679  ls -la
+  680  cd /opt
+  681  ls
+  682  cd /opt/131224-wdm/
+  683  pwd
+  684  mkdir Oksana
+  685  mkdir Sadvakassof
+  686  cd Sadvakassof
+  687  cd
+  688  ls
+  689  cd
+  690  history
+  691  cd
+  692  pwd
+  693  touch ~/myfirstbashscript.sh
+  694  chmod +x ~/myfirstbashscript.sh
+  695  nano ~/myfirstbashscript.sh
+  696  Экспортируйте и пришлите результирующий файл, желательно в формате txt
+  697  ~/myfirstbashscript.sh
+  698  nano ~/myfirstbashscript.sh
+  699  ~/myfirstbashscript.sh
+  700  cp ~/myfirstbashscript.sh /tmp/myfirstbashscript.txt
+  701  scp user@remote_host:/tmp/myfirstbashscript.txt .
+  702  cat ~/myfirstbashscript.sh
+  703  cp ~/myfirstbashscript.sh /tmp/myfirstbashscript.txt
+  704  /tmp/myfirstbashscript.txt
+  705  cp ~/myfirstbashscript.sh /tmp/myfirstbashscript.txt
+  706  export_file /tmp/myfirstbashscript.txt
+  707  cat /tmp/myfirstbashscript.txt
+  708  ls
+  709  pwd
+  710  cd /
+  711  ls -la
+  712  cd /opt
+  713  ls
+  714  cd /opt/131224-wdm/
+  715  pwd
+  716  mkdir Sadvakassov
+  717  cd Sadvakassov
+  718  touch file.txt
+  719  ls
+  720  history
+  721  ls
+  722  pwd
+  723  git commid
+  724  pwd
+  725  dir
+  726  :wq
+  727  pwd
+  728  nano file.txt
+  729  exit
+  730  export ANDREW_VARIABLE=131224-wdm
+  731  mkdir -p /opt/131224-wdm/Oksana
+  732  touch /opt/131224-wdm/Oksana/ .process_management
+  733  pwd
+  734  mkdir -p /opt/131224-wdm/Oksana
+  735  touch /opt/131224-wdm/Oksana/ .process.txt
+  736  nano /opt/131224-wdm/Oksana/ .process.txt
+  737  cat /opt/131224-wdm/Oksana/ .process.txt
+  738  history
+  739  exit
+  740  cd /opt/111124-ptm/
+  741  cd AlexSidorenko/
+  742  ls
+  743  vim HW_19.sh
+  744  ls
+  745  vim 11-11-24.sh 
+  746  rm -f 11-11-24.sh 
+  747  chmod +x HW_19.sh
+  748  ls
+  749  exit
+  750  /opt/131224-wdm/Ku
+  751  /opt/131224-wdm/Kushnir_Yevhenii/
+  752  ls -l /opt/131224-wdm
+  753  ls -l /opt/131224-wdm/Kushnir_Yevhenii/
+  754  ls -l /tmp/
+  755  ls -l /tmp
+  756  ls -l
+  757  ls -la | grep 'tmp'
+  758  ls -la | grep tmp
+  759  ls -la / | grep tmp
+  760  cd /opt/111124-ptm/Klymentii/
+  761  ll
+  762  cd homeworks/
+  763  ll
+  764  mkdir 25.2.25
+  765  cd 25.2.25/
+  766  cd ..
+  767  ll
+  768  cd 25.2.25/
+  769  ll
+  770  mkdir odd_nums
+  771  mkdir even_nums
+  772  rmdir odd_nums
+  773  mkdir temp
+  774  cd temp/
+  775  pwd
+  776  cd ..
+  777  even_nums/
+  778  cd even_nums/
+  779  pwd
+  780  ll
+  781  cd ..
+  782  cd temp
+  783  for i in {1..100}; do touch $RANDOM; done
+  784  ll
+  785  cd ..
+  786  touch sort_file.sh
+  787  sudo chmod ugo+x sort_file.sh 
+  788  vim sort_file.sh 
+  789  ./sort_file.sh 
+  790  ll
+  791  cd temp/
+  792  ll
+  793  cd ..
+  794  cd even_nums/
+  795  ll
+  796  cd ..
+  797  ll
+  798  cat sort_file.sh 
+  799  ll
+  800  mv sort_file.sh sort_files.sh 
+  801  ll
+  802  cat sort_files.sh 
+  803  ./sort_files.sh 
+  804  ll
+  805  cd even_nums/
+  806  ll
+  807  cd ..
+  808  cd temp
+  809  ll
+  810  cd ..
+  811  ll
+  812  exit
+  813  cd /opt/111124-ptm/Klymentii/homeworks/25.2.25/
+  814  ll
+  815  pwd
+  816  exit
+  817  cd opt/111124-ptm
+  818  cd /opt/111124-ptm
+  819  ls
+  820  cd AllaVinogradova/
+  821  mkdir -p /opt/dir1 /opt/dir2
+  822  ls
+  823  mkdir -p dir1 dir2
+  824  ls
+  825  touch 100_files_script.sh
+  826  vim 100_files_script.sh 
+  827  ls
+  828  pwd
+  829  vim 100_files_script.sh 
+  830  chmod +x 100_files_script.sh 
+  831  ./100_files_script.sh 
+  832  cd dir1
+  833  ls
+  834  cd ..
+  835  vim 100_files_script.sh 
+  836  ./100_files_script.sh 
+  837  ls
+  838  cd dir1
+  839  ls
+  840  cd ..
+  841  cd dir2
+  842  ls
+  843  cd ..
+  844  vim 100_files_script.sh 
+  845  ./100_files_script.sh 
+  846  vim 100_files_script.sh 
+  847  ./100_files_script.sh 
+  848  cd dir
+  849  cd dir1
+  850  ls
+  851  rm -rf
+  852  ls
+  853  rm -a
+  854  rm -rf */
+  855  ls
+  856  rm /*
+  857  ls -la
+  858  rm -f ./*
+  859  ды
+  860  ls
+  861  cd ..
+  862  cd dir2
+  863  rm -f ./*
+  864  ls
+  865  cd ..
+  866  ./100_files_script.sh 
+  867  cd dir1
+  868  ls
+  869  cd ..
+  870  cd dir2
+  871  ls
+  872  cd ..
+  873  pwd
+  874  ls 
+  875  vim 100_files_script.sh 
+  876  ls
+  877  cd /opt
+  878  ls
+  879  cd 111124-ptm
+  880  ls
+  881  cd Vitali
+  882  ls
+  883  mkdir 1st_dir
+  884  mkdir 2nd_dir
+  885  ls
+  886  cd 1st_dir
+  887  ls
+  888  for file in range[1..100]:; 
+  889  ls
+  890  for i in {1..100}; do     touch "$(date +%s%N).$RANDOM"
+  891  for i in {1..100}; do touch "$RANDOM"; done
+  892  ls
+  893  for i in 1st_dir; do if $NAME // 2 = 0:
+  894  for i in *; do if (( i % 2 == 0 )); then mv "$i" /opt/111124-ptm/Vitali/2nd_dir; fi; done
+  895  ls
+  896  echo 'eee' >> /tmp/hw7_kushnir
+  897  echo 'eee' >> /tmp/hw7_kushnir
+  898  nano 1234.sh
+  899  chmod u+x 1234.sh
+  900  ./1234.sh
+  901  nano 1234.sh
+  902  ./1234.sh
+  903  nano 1234.sh
+  904  ./1234.sh
+  905  ls
+  906  nano 1234.sh
+  907  cd /Alla
+  908  cd Alla/
+  909  cd /otp/131224-wdm/Alla
+  910  cd /tmp/131224-wdm/Alla
+  911  cd /opt/131224-wdm/Alla
+  912  ls
+  913  cd /opt
+  914  ls
+  915  cd 131224-wdm/NikIst
+  916  ls
+  917  ls -ls
+  918  ls -la
+  919  touch firstScript.txt
+  920  nano firstScript.txt 
+  921  ls
+  922  rename firstScript.txt firstScript.sh
+  923  rename 's/firstScript.txt/firstScript.sh/'
+  924  mv firstScript.txt firstScript.sh
+  925  ls
+  926  nano firstScript.sh 
+  927  firstScript.sh
+  928  ./firstScript.sh
+  929  ls -la
+  930  chmod 770 firstScript.sh 
+  931  ls -la
+  932  ./firstScript.sh
+  933  nano firstScript.sh 
+  934  ./firstScript.sh
+  935  nano firstScript.sh 
+  936  exit
+  937  ls -la /opt/chumak
+  938  ls -la /opt/chumak/1.sh 
+  939  cd /opt/131224-wdm/Kushnir_Yevhenii/
+  940  ls
+  941  ls -l
+  942  cd ..
+  943  ls -l /tmp/hw7_kushnir
+  944  echo "eee"  > /tmp/hw7_kushnir 
+  945  echo "eee"  > /tmp/hw7_kushnir.tmp 
+  946  cat /tmp/hw7_kushnir
+  947  cat /tmp/hw7_kushnir.tmp 
+  948  cd chumak/
+  949  nano 1234.sh
+  950  chmod u+x 1234.sh 
+  951  ./1234.sh 
+  952  nano 1234.sh
+  953  ./1234.sh 
+  954  nano 1234.sh
+  955  ./1234.sh 
+  956  ls
+  957  nano 1234.sh
+  958  ping 8.8.8.8
+  959  cd /opt/131224-wdm/nastyaKo/
+  960  nano 12345.sh
+  961  chmod 644 12345.sh
+  962  ./12345sh
+  963  ./12345.sh
+  964  cat 12345.sh 
+  965  nano 12345.sh 
+  966  ./12345.sh
+  967  chmod u+x 12345.sh 
+  968  ./12345.sh 
+  969  ls
+  970  nano 12345.sh 
+  971  ./12345.sh 
+  972  ls -la
+  973  nano 12345.sh 
+  974  ./12345.sh 
+  975  ls
+  976  echo "eee"  >> /tmp/hw7_kushnir
+  977  cat /tmp/hw7_kushnir
+  978  cat /tmp/file8.txt
+  979  cd /opt/131224-wdm/Viktor/
+  980  vi testcycle.sh
+  981  chmod +x testcycle.sh 
+  982  bah testcycle.sh 
+  983  bash testcycle.sh 
+  984  vi testcycle.sh
+  985  bash testcycle.sh 
+  986  vi testcycle.sh
+  987  cd /opt/131224-wdm/koriahin-serhii/
+  988  nano 123file.sh
+  989  chmod u+x 123file.sh 
+  990  ./123file.sh 
+  991  nano 123file.sh
+  992  ./123file.sh 
+  993  nano 123file.sh
+  994  ./123file.sh 
+  995  ls -la
+  996  nano 123file.sh
+  997  ls -la
+  998  exit
+  999  nano
+ 1000  pwd
+ 1001  cd /opt/131224-wdm/NikIst
+ 1002  ls
+ 1003  touch text.txt
+ 1004  df -h | head -n 3 >> text.txt
+ 1005  cat text.txt
+ 1006  sudo chmod 770 text.txt
+ 1007  ls -la
+ 1008  touch myfirstbachscript.sh
+ 1009  la
+ 1010  ls
+ 1011  nano myfirstbachscript.sh 
+ 1012  cat myfirstbachscript.sh >> file.txt
+ 1013  history >> file.txt

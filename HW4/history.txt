@@ -1,0 +1,7 @@
+   0 touch /home/file.txt
+   1 date > file.txt
+   2 df -h / >> file.txt
+   3 history | tail -n 3 >> file.txt
+   4 grep cron /etc/group >> file.txt
+   5 nano file.txt
+   6 history > /tmp/history.txt && export_file /tmp/history.txt
